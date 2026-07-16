@@ -59,19 +59,7 @@ Your personal AI assistant — deploy locally or in the cloud, extend with Skill
 
 ---
 
-## Table of Contents
 
-- [Quick Start](#quick-start)
-- [Terminal UI (TUI)](#terminal-ui-tui)
-- [API Key](#api-key)
-- [Local Models](#local-models)
-- [Security Features](#security-features)
-- [Documentation](#documentation)
-- [Install From Source](#install-from-source)
-- [Built By](#built-by)
-- [License](#license)
-
----
 
 ## Quick Start
 
