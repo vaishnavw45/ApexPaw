@@ -11,7 +11,7 @@ WORKDIR /app
 COPY . /app
 
 # Build the React frontend
-RUN cd console && npm ci && npm run build
+RUN cd console && npm install && npm run build
 RUN mkdir -p src/qwenpaw/console && cp -R console/dist/. src/qwenpaw/console/
 
 # Install the Python backend
