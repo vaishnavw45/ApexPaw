@@ -17,9 +17,6 @@ RUN mkdir -p src/qwenpaw/console && cp -R console/dist/. src/qwenpaw/console/
 # Install the Python backend
 RUN pip install -e ".[dev,full]"
 
-# Initialize the default configuration
-RUN qwenpaw init --defaults --force
-
 # Expose QwenPaw's port
 EXPOSE 8088
 
