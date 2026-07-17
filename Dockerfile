@@ -18,7 +18,7 @@ RUN mkdir -p src/qwenpaw/console && cp -R console/dist/. src/qwenpaw/console/
 RUN pip install -e ".[dev,full]"
 
 # Initialize the default configuration
-RUN qwenpaw init --defaults
+RUN qwenpaw init --defaults --force
 
 # Expose QwenPaw's port
 EXPOSE 8088
